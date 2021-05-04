@@ -10,4 +10,4 @@ Get-WmiObject -Class win32_Product -ComputerName $server | select Name, Version,
 
 }
 
-$results | Export-Csv -Path C:\Servers\Softwares_172.16.140.51.csv
+$results | Export-Csv -Path C:\Servers\Softwares_IPADDR.csv
